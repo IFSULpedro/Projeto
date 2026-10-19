@@ -1,0 +1,20 @@
+Pedro Tapado Carvalho
+
+Tema: E-Commerce, loja de jogos.
+
+Entidades: 
+
+	Clientes {"id": 1, 
+	"nome": "Pessoa", 
+	"endereco": "Cidade local, Rua lugar, 42"}
+	
+	Jogos {"id": 1, 
+	"nome": "Elden Ring", 
+	"preco": 160.00, 
+	"tipo": "Ação", 
+	"disponibilidade": true}
+	
+	Pedidos {"id": 1,
+	"precoTotal": 300.00,
+	"clienteId": 1,
+	"jogosId": [1, 2]}
