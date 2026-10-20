@@ -6,7 +6,8 @@ Entidades:
 
 	Clientes {"id": 1, 
 	"nome": "Pessoa", 
-	"endereco": "Cidade local, Rua lugar, 42"}
+	"endereco": "Cidade local, Rua lugar, 42",
+    "senha": "1234"}
 	
 	Jogos {"id": 1, 
 	"nome": "Elden Ring", 
