@@ -4,18 +4,20 @@ Tema: E-Commerce, loja de jogos.
 
 Entidades: 
 
-	Clientes {"id": 1, 
-	"nome": "Pessoa", 
-	"endereco": "Cidade local, Rua lugar, 42",
-    "senha": "1234"}
+	Clientes {id: 1, 
+	nome: "Pessoa", 
+    senha: "1234",
+	cartao: "1234567890"}
 	
-	Jogos {"id": 1, 
-	"nome": "Elden Ring", 
-	"preco": 160.00, 
-	"tipo": "Ação", 
-	"disponibilidade": true}
+	Jogos {id: 1, 
+	nome: "Elden Ring", 
+	preco: 160.00, 
+	tipo: "Ação", 
+	disponibilidade: true}
 	
-	Pedidos {"id": 1,
-	"precoTotal": 300.00,
-	"clienteId": 1,
-	"jogosId": [1, 2]}
+	Pedidos {id: 1,
+	precoTotal: 300.00,
+	clienteId: 1,
+	jogosId: [1, 2],
+	endereco: "Cidade local, Rua lugar, 42",
+	status: "Entregue"}
